@@ -1,0 +1,93 @@
+@charset "UTF-8";
+body {
+    background-image: url(bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; 
+}
+#container{
+	width: 768px;
+	height: auto;
+	background-color: rgba(255,255,255,1.00);	
+	margin: auto;
+		
+
+}
+
+
+/*Float the aside so it displays net to the main.*/
+aside{
+    width: 150px;
+    height: 1200px;
+    background-color: #5B5B5B;
+    float: left;
+}
+
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(header.jpg);
+}
+
+/*Float the mainso it shoows up . next to the Aside. Reduce width by 150px so they both line up below the header*/
+main{
+    width: 598px;
+    height: 1600px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+article {
+    margin-bottom: 30px;
+}
+
+
+h1 {
+    color: #65ECFC;
+    font-family: politica,sans-serif ;
+	font-weight: 700;
+	font-size: 22pt
+	
+}
+#container nav ul {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 0px;
+}
+p {
+    font-size: small;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    text-transform: none;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: baseline;
+    white-space: pre-line;
+}
+
+
+footer {
+    background-color:;
+    width: 768px;
+    height: 50px;
+    clear: both;
+}
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+img {
+    float: left;
+}
+.floatleft {
+	float: left;
+}
